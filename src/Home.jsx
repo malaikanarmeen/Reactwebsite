@@ -1,17 +1,12 @@
 import React from 'react';
-import web from '../src/images/welc.gif';
-import Common from './Common';
-
 const Home = () => {
-  return (
-    <>
-    <Common name= 'Grow your business'  
-        imgsrc={web}
-        visit= '/Services'
-        btname= "Get Started"
-      />
-    </>
-  )
+     return(
+        <>
+        <div className='bg-Home'>
+        <div className='heading'>HERE TO CREATE MOMENTS THAT LAST A LIFETIME</div>
+        
+        <button type="button" class="btn  btn-lg wwd">What we do</button> </div>        
+        </>
+     );
 };
-
 export default Home;
